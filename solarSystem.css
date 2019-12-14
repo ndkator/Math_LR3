@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    background-image: url(image/space.jpg)
+}
+
+span {
+    color: white;
+}
+
+#pluto-orbit {
+    width: 750px;
+    height: 750px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px auto;
+    position: relative;
+    animation: spin 60s linear infinite;
+}
+
+#pluto {
+    width: 20px;
+    height: 20px;
+    background-color: #eaed52;
+    border-radius: 50%;
+    position: absolute;
+    top: 280px;
+}
+
+#neptune-orbit {
+    width: 700px;
+    height: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 25px auto;
+    position: relative;
+    animation: spin 70s linear infinite;
+}
+
+#neptune {
+    width: 25px;
+    height: 25px;
+    background: radial-gradient(circle, #0541F5, #4105F5);
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+}
+
+#uranus-orbit {
+    width: 630px;
+    height:630px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 35px auto;
+    position: relative;
+    animation: spin 82s linear infinite;
+}
+
+
+#uranus {
+    width: 32px;
+    height: 32px;
+    background: radial-gradient(circle, #0780E3, #062C9C);
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+}
+
+
+#saturn-orbit {
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    margin: 45px auto;
+    animation: spin 95s linear infinite;
+}
+
+#saturn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #E08D19, #EBAC54);
+    position: relative;
+    top: 150px;
+}
+
+#saturn-rings {
+    width: 50px;
+    border: 2px solid #c4ba71;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: -8px;
+}
+
+#jupiter-orbit {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 10px auto;
+    position: relative;
+    animation: spin 105s linear infinite;
+}
+
+#jupiter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #917041, #5C421D);
+    position: absolute;
+    top: 105px;
+}
+
+#mars-orbit {
+    width:370px;
+    height: 370px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 35px auto;
+    position: relative;
+    animation: spin 110s linear infinite;
+}
+
+#mars {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #FA9911, #69410A);
+    position: absolute;
+    top: 100px;
+}
+
+#earth-orbit {
+    width: 310px;
+    height: 310px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    animation: spin 120s linear infinite;
+}
+
+#earth {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #5DF505, #114FFA);
+    position: absolute;
+    top: 85px;
+}
+
+#moon-orbit {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    top: 76px;
+    left: -8px;
+    animation: spin 5s linear infinite;
+}
+
+#moon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F5F3CE;
+}
+
+#venus-orbit {
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    top: -5px;
+    left: 36px;
+    animation: spin 125s linear infinite;
+}
+
+#venus {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #DB9969, #69462E);
+    position: relative;
+    top: 60px;
+}
+#mercury-orbit {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    animation: spin 130s linear infinite;
+}
+
+#mercury {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #E86E17, #BA5711);
+    position: relative;
+    top: 30px;
+}
+
+#sun {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #FCFC14, #FF7700);
+    box-shadow: 0px 0px 40px #FF7700;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
